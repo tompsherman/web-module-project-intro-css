@@ -8,12 +8,16 @@
     box-sizing:border-box;
     border: 1px solid black;
 }
+html{
+    font-size: 62.5%;
+}
 .button{
-display: inline-block;
+    width:100%;
 text-align: center;
 font-family: 'Roboto Mono', monospace;
 border-radius: 10px;
-padding:1%;
+padding:5%;
+font-size:1.75rem;
 
 }
 .button .plan{
@@ -22,7 +26,6 @@ padding:1%;
     color:white;
     width: 25%;
     border-radius: 10px;
-    margin: auto auto;
     padding: 1%;
 }
 .button .learn{
@@ -31,62 +34,82 @@ padding:1%;
     color:white;
     width: 25%;
     border-radius: 10px;
-    margin: 0 auto;
     padding: 1%;
 
 }
 .button .get{
-    display: inline-block;
     background-color: #FFCD69;
     color:white;
     width: 25%;
+    display: inline-block;
     border-radius: 10px;
-    margin: 0 auto;
-    padding: 1%;
+    padding: 1.7%;
 
 }
 .logo{
-    width:25%;
+    width:28%;
     display:inline-block;
-    margin:10%;
+    margin:2%;
   }
   .logo img{
     max-width:100%;
     border-radius:50%;
   }
   .promo{
-    width:50%;
+    width:65%;
     display:inline-block;
     margin:1%;
   }
   .promo h1{
       text-align: center;
       padding:5%;
+      font-size: 3rem;
+      font-family: 'Chelsea Market', cursive;
   }
   .promo p{
       text-align: center;
       padding: 5%;
+      font-size:1.5rem;
+      font-family: 'Roboto Mono', monospace;
   }
-}
-h1{
-    font-family: 'Chelsea Market', cursive;
-}
-p{
-    font-family: 'Roboto Mono', monospace;
-}
+
 .sect1{
     background-color: #DDB9A3;
     color:white;
-}
-.sect2{
-
+    font-size:1.5rem;
+    padding:4%;
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Roboto Mono', monospace; 
+    font-size:1.5rem; 
+    text-align: center;
 }
 .sect2 .icon{
+    width:25%;
+    margin: 0 auto;
+    padding: 3%;
+
+}
+.sect2 .icon img{
+    width:100%;
+    margin: 0 auto;
+    padding: 3%;
 
 }
 .sect2 .fyi{
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3%;
+    font-family: 'Roboto Mono', monospace; 
+    font-size:1rem;  
 
 }
 footer {
     background-color: #F9E7DC;
+    
+}
+footer img{
+    width:100%;
+    height: 250px;
 }
