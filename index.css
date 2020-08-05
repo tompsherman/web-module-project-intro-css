@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 *{
     padding:0;
     margin:0;
@@ -6,14 +9,84 @@
     border: 1px solid black;
 }
 .button{
+display: inline-block;
+text-align: center;
+font-family: 'Roboto Mono', monospace;
+border-radius: 10px;
+padding:1%;
 
 }
 .button .plan{
+    display: inline-block;
     background-color: #FF764E;
+    color:white;
+    width: 25%;
+    border-radius: 10px;
+    margin: auto auto;
+    padding: 1%;
 }
 .button .learn{
+    display: inline-block;
     background-color: #5ED3EB;
+    color:white;
+    width: 25%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1%;
+
 }
 .button .get{
+    display: inline-block;
     background-color: #FFCD69;
+    color:white;
+    width: 25%;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 1%;
+
+}
+.logo{
+    width:25%;
+    display:inline-block;
+    margin:10%;
+  }
+  .logo img{
+    max-width:100%;
+    border-radius:50%;
+  }
+  .promo{
+    width:50%;
+    display:inline-block;
+    margin:1%;
+  }
+  .promo h1{
+      text-align: center;
+      padding:5%;
+  }
+  .promo p{
+      text-align: center;
+      padding: 5%;
+  }
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+.sect1{
+    background-color: #DDB9A3;
+    color:white;
+}
+.sect2{
+
+}
+.sect2 .icon{
+
+}
+.sect2 .fyi{
+
+}
+footer {
+    background-color: #F9E7DC;
 }
