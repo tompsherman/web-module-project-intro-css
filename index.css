@@ -1,3 +1,19 @@
+
 *{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
     border: 1px solid black;
+}
+.button{
+
+}
+.button .plan{
+    background-color: #FF764E;
+}
+.button .learn{
+    background-color: #5ED3EB;
+}
+.button .get{
+    background-color: #FFCD69;
 }
